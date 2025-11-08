@@ -5,7 +5,7 @@ type HeadingProps = {
 
 const Heading = ({ title, subtitle }: HeadingProps) => {
   return (
-    <div>
+    <div className="my-8 space-y-2">
       <h2 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
         {title}
       </h2>
