@@ -28,7 +28,7 @@ export default function NavigationMenuDemo() {
       {/* Logo */}
       <Link href="/" className="flex items-center gap-2">
         <Image src="/logo.svg" alt="logo" width={140} height={140} />
-        <span className="font-bold text-lg hidden">Mat store</span>
+        <h1 className="font-bold text-lg hidden">Mat store</h1>
       </Link>
 
       {/* Desktop Menu */}
@@ -84,7 +84,7 @@ export default function NavigationMenuDemo() {
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
-              <div className="mt-6 flex flex-col gap-4">
+              <div className="mt-6 flex flex-col gap-4 p-4">
                 <Link href="/" className="text-lg font-medium hover:underline">
                   Home
                 </Link>
