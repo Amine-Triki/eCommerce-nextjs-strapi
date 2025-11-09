@@ -1,5 +1,6 @@
 import Heading from "@/components/Heading";
 import Hero from "@/components/Hero";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         title="La collection distinctive"
         subtitle="Les produits les plus récents et les plus vendus au Tunisie"
       />
+      <Products />
     </div>
   );
 }
