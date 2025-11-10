@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center px-4 py-3 border-t bg-background text text-muted-foreground">
+    <div className="flex items-center justify-center px-4 py-3 border-t bg-background text-sm md:text-md text-muted-foreground">
       © 2025 - {new Date().getFullYear()} MAT Store ™ -- create by&nbsp;
       <Link
         href="https://aminetriki.com.tn"
