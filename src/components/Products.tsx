@@ -27,7 +27,7 @@ const Products = () => {
       name: "Product A",
       PriceBeforeDiscount: 45,
       price: 29.99,
-      imgsrc: "/globe.svg",
+      imgsrc: "/products/1.webp",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const Products = () => {
       name: "Product B",
       PriceBeforeDiscount: 70,
       price: 49.99,
-      imgsrc: "/globe.svg",
+      imgsrc: "/products/2.avif",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ const Products = () => {
       name: "Product C",
       PriceBeforeDiscount: 35,
       price: 19.99,
-      imgsrc: "/globe.svg",
+      imgsrc: "/products/3.avif",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const Products = () => {
       name: "Product D",
       PriceBeforeDiscount: 145,
       price: 99.99,
-      imgsrc: "/globe.svg",
+      imgsrc: "/products/4.avif",
     },
   ];
 
@@ -81,7 +81,7 @@ const Products = () => {
         >
           <Card className="overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
             <CardContent className="p-4 flex flex-col items-center">
-              <div className="relative w-32 h-32 mb-4">
+              <div className="relative w-50 h-50 mb-4">
                 <Image
                   src={product.imgsrc}
                   alt={product.name}
