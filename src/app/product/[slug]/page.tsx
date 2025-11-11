@@ -141,8 +141,7 @@ const ProductPage = () => {
         transition={{ delay: 0.3 }}
         className="max-w-md text-center lg:text-left"
       >
-        <h1 className="text-3xl font-bold mb-3">{product.name}</h1>
-        <p className="text-gray-600 mb-4">{product.description}</p>
+        <h2 className="text-3xl font-bold mb-3">{product.name}</h2>
 
         <div className="flex items-center justify-center lg:justify-start gap-3 mb-6">
           <span className="text-gray-400 line-through text-lg">
@@ -152,6 +151,7 @@ const ProductPage = () => {
             ${product.price}
           </span>
         </div>
+        <p className="text-gray-600 mb-4">{product.description}</p>
 
         <div className="flex gap-4 justify-center lg:justify-start">
           <Button
